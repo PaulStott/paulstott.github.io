@@ -73,29 +73,24 @@ input, select, textarea {
 }
 
 .latex sub {
-	vertical-align: -0.1ex;
+	vertical-align: -0.2ex;
 	margin-left: -0.1667em;
 	margin-right: -0.025em;
   }
   
-  .xetex sub {
-	vertical-align: -0.1ex;
-	margin-left: -0.1667em;
-	margin-right: -0.125em;
-  }
-  
-  .latex sub, .latex sup, .xetex sub {
+  .latex sub, .latex sup {
 	font-size: 0.9em;
 	text-transform:uppercase;
   
   }
+
   .latex sup {
 	font-size: 0.85em;
-	vertical-align: -0.2em;
+	vertical-align: -0.1em;
 	margin-left: -0.26em;
 	margin-right: -0.05em;
   }
-  
+
 /* Basic */
 
 	@-ms-viewport {

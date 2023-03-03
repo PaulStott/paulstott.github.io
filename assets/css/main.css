@@ -73,7 +73,7 @@ input, select, textarea {
 }
 
 .latex sub {
-	vertical-align: -0.2ex;
+	vertical-align: -0.3ex;
 	margin-left: -0.1667em;
 	margin-right: -0.025em;
   }
@@ -86,7 +86,7 @@ input, select, textarea {
 
   .latex sup {
 	font-size: 0.85em;
-	vertical-align: -0.1em;
+	vertical-align: -0.3em;
 	margin-left: -0.26em;
 	margin-right: -0.05em;
   }

@@ -73,7 +73,7 @@ input, select, textarea {
 }
 
 .latex sub {
-	vertical-align: -0.3ex;
+	vertical-align: -0.5ex;
 	margin-left: -0.1667em;
 	margin-right: -0.025em;
   }

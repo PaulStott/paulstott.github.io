@@ -72,6 +72,13 @@ input, select, textarea {
 	appearance: none;
 }
 
+.latex sup {
+	font-size: 0.85em;
+	vertical-align: 0.15em;
+	margin-left: -0.36em;
+	margin-right: -0.15em;
+  }
+
 /* Basic */
 
 	@-ms-viewport {

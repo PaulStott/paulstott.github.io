@@ -122,13 +122,6 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-							
-								<!-- Thank You Message -->
-								<div id="thank-you" style="display: none; color: green; font-weight: bold; margin-top: 10px;">
-									Thanks for your message. I'll get back to you soon.
-								</div>
-							</article>
-
 					</div>
 
 				<!-- Footer -->
@@ -147,19 +140,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-		<!-- JavaScript -->
-			<script> //displays thank you message after contact form
-    		document.getElementById('contact-form').addEventListener('submit', function(event) {
-        	event.preventDefault(); //prevent default form submission
-
-        	//print message
-        	document.getElementById('thank-you').style.display = 'block';
-
-       		//clear the form
-        	this.reset();
-		});
-			</script>
 
 	</body>
 </html>

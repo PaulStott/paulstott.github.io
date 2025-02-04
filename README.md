@@ -1,1 +1,0 @@
-# paulstott.github.io

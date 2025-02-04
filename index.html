@@ -75,7 +75,6 @@
 								<li><a href = "https://www.dropbox.com/s/d293hlf2dhjbigm/WTH-Q_Presentation.pdf?dl=0">What the hell questions (WTH-Qs) in English</a></li>
 								<li><a href = "https://www.dropbox.com/scl/fi/s8rfhb9vvpq0f8mryurf7/LELSeminarTalk071124_v2.pdf?rlkey=pogzkbjdigzynlcuq8ikjlgs1&dl=0">Contextual Quantifier Domain Restriction (CDR) in Ambiguous Linguistic Contexts</a></li>
 								<li><a href = "https://www.dropbox.com/scl/fi/wet2pb2rg1eawsb7we8ub/amlap_2024_poster.pdf?rlkey=u7d3w744mhkay1v7cyofh62rk&dl=0">Quantifier domain restriction can remain underspecified in ambiguous linguistic contexts</a></li>
-
 							</ul>
 							</article>
 
@@ -142,5 +141,15 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<script>
+			//show Thank You section if URL has #contact-thanks
+        window.onload = function() {
+            if (window.location.hash === '#contact-thanks') {
+                showThankYou();
+            } else {
+                showContact();
+            }
+        };
+		</script>
 	</body>
 </html>
